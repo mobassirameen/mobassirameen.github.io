@@ -1811,14 +1811,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     gap: 25px;
   }
 
-  <!--.main-content {
+  .main-content {
     min-width: 75%;
     width: 75%;
-    margin: 0;
-  }-->
-  .main-content {
-    min-width: calc(100% - 405px);
-    width: calc(100% - 405px);
     margin: 0;
   }
 
