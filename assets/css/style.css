@@ -1846,7 +1846,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     padding-top: 60px;
     z-index: 1;
 
-    width: 380px;      /* Add this */
+    width: 500px;      /* Add this */
     flex-shrink: 0;    /* Add this */
   }
 
