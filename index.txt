@@ -2,23 +2,23 @@ Mohammad Mobassir Ameen
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Mohammad Mobassir Ameen
+Mohammad Mobassir Ameen
+Experimental Particle Physicist
 
 Show Contacts
 
 Email
-richard@example.com
+mobassir.ameen7866@gmail.com
 
-Phone
-+1 (213) 352-2795
+Mobile
++91 8853878532
 
-Birthday
-June 23, 1982
+#Birthday
+#June 23, 1982
 
 Location
-Sacramento, California, USA
+IIT Madras, Chennai, India
 
 # navbar
 
