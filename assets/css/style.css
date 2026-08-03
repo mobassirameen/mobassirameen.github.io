@@ -1854,16 +1854,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box img { width: 150px; }
 
-  <!--.info-content .name {
+  .info-content .name {
     white-space: nowrap;
     text-align: center;
-  }-->
-  .info-content .name {
-    white-space: normal;
-    text-align: center;
-    font-size: 26px;
-    line-height: 1.3;
-    word-break: break-word;
   }
 
   .info-content .title { margin: auto; }
