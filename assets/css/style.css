@@ -1823,15 +1823,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    * SIDEBAR
    */
 
-  <!--.sidebar {
-    position: sticky;
-    top: 60px;
-    max-height: max-content;
-    height: 100%;
-    margin-bottom: 0;
-    padding-top: 60px;
-    z-index: 1;
-  }-->
   .sidebar {
     position: sticky;
     top: 60px;
@@ -1840,9 +1831,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-bottom: 0;
     padding-top: 60px;
     z-index: 1;
-
-    width: 500px;      /* Add this */
-    flex-shrink: 0;    /* Add this */
   }
 
   .sidebar-info { flex-direction: column; }
