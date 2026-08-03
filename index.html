@@ -1,25 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Your Name | Academic Portfolio</title>
+<title>Your Name | Academic Portfolio</title>
 
-    <meta name="description"
-          content="Academic portfolio showcasing research, publications, projects, and professional achievements.">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    <!-- Icons -->
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -28,209 +21,293 @@
 
 <header>
 
-    <nav>
+<nav class="navbar">
 
-        <div class="logo">
-            Your Name
-        </div>
+<div class="logo">
+Your Name
+</div>
 
-        <ul>
+<ul class="nav-links">
 
-            <li><a href="#home">Home</a></li>
+<li><a href="#home">Home</a></li>
 
-            <li><a href="#about">About</a></li>
+<li><a href="#about">About</a></li>
 
-            <li><a href="#research">Research</a></li>
+<li><a href="#research">Research</a></li>
 
-            <li><a href="#publications">Publications</a></li>
+<li><a href="#experience">Experience</a></li>
 
-            <li><a href="#projects">Projects</a></li>
+<li><a href="#publications">Publications</a></li>
 
-            <li><a href="#gallery">Gallery</a></li>
+<li><a href="#projects">Projects</a></li>
 
-            <li><a href="#contact">Contact</a></li>
+<li><a href="#gallery">Gallery</a></li>
 
-        </ul>
+<li><a href="#contact">Contact</a></li>
 
-    </nav>
+</ul>
+
+</nav>
 
 </header>
 
-
 <!-- ================= HERO ================= -->
 
-<section id="home">
+<section id="home" class="hero">
 
-    <div class="hero-content">
+<div class="hero-left">
 
-        <img src="images/profile.jpg"
-             alt="Profile Photo">
+<h1>Your Name</h1>
 
-        <h1>Your Name</h1>
+<h2>Experimental Particle Physicist</h2>
 
-        <h2>Your Position</h2>
+<p>
 
-        <p>
+Welcome to my personal academic website.
+Here you can find my research, publications,
+projects, conference presentations, and contact information.
 
-            Short professional introduction goes here.
+</p>
 
-        </p>
+<a href="files/CV.pdf" class="btn">
 
-        <a href="files/CV.pdf">Download CV</a>
+Download CV
 
-    </div>
+</a>
+
+</div>
+
+<div class="hero-right">
+
+<img src="images/profile.jpg" alt="Profile">
+
+</div>
 
 </section>
-
 
 <!-- ================= ABOUT ================= -->
 
 <section id="about">
 
-    <h2>About Me</h2>
+<h2>About Me</h2>
 
-    <p>
+<p>
 
-        Write your academic background here.
+Write a short biography here.
 
-    </p>
+</p>
 
 </section>
-
 
 <!-- ================= RESEARCH ================= -->
 
 <section id="research">
 
-    <h2>Research Interests</h2>
+<h2>Research Interests</h2>
 
-    <div class="cards">
+<div class="card-container">
 
-        <div class="card">
+<div class="card">
 
-            Research Area 1
+<h3>Higgs Physics</h3>
 
-        </div>
+<p>Short description</p>
 
-        <div class="card">
+</div>
 
-            Research Area 2
+<div class="card">
 
-        </div>
+<h3>Machine Learning</h3>
 
-        <div class="card">
+<p>Short description</p>
 
-            Research Area 3
+</div>
 
-        </div>
+<div class="card">
 
-    </div>
+<h3>Detector R&D</h3>
+
+<p>Short description</p>
+
+</div>
+
+</div>
 
 </section>
-
 
 <!-- ================= EXPERIENCE ================= -->
 
 <section id="experience">
 
-    <h2>Experience</h2>
+<h2>Experience</h2>
 
-    <div class="timeline">
+<div class="timeline">
 
-        Timeline entries here
+<div class="timeline-item">
 
-    </div>
+<h3>2026</h3>
+
+<p>PhD Submitted</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>2024</h3>
+
+<p>CMS Higgs Analysis</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>2023</h3>
+
+<p>RWTH Aachen University</p>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>2019</h3>
+
+<p>Joined IIT Madras</p>
+
+</div>
+
+</div>
 
 </section>
-
 
 <!-- ================= PUBLICATIONS ================= -->
 
 <section id="publications">
 
-    <h2>Publications</h2>
+<h2>Publications</h2>
 
-    <div class="publication">
+<div class="card-container">
 
-        Publication 1
+<div class="card">
 
-    </div>
+Publication 1
 
-    <div class="publication">
+</div>
 
-        Publication 2
+<div class="card">
 
-    </div>
+Publication 2
+
+</div>
+
+<div class="card">
+
+Publication 3
+
+</div>
+
+</div>
 
 </section>
-
 
 <!-- ================= PROJECTS ================= -->
 
 <section id="projects">
 
-    <h2>Projects</h2>
+<h2>Projects</h2>
 
-    <div class="cards">
+<div class="card-container">
 
-        <div class="card">
+<div class="card">
 
-            Project 1
+CMS Analysis
 
-        </div>
+</div>
 
-        <div class="card">
+<div class="card">
 
-            Project 2
+Transformer Network
 
-        </div>
+</div>
 
-    </div>
+<div class="card">
+
+Pixel Sensors
+
+</div>
+
+</div>
 
 </section>
-
 
 <!-- ================= GALLERY ================= -->
 
 <section id="gallery">
 
-    <h2>Gallery</h2>
+<h2>Gallery</h2>
 
-    <img src="images/photo1.jpg"
-         alt="Gallery image">
+<div class="gallery">
+
+<img src="images/photo1.jpg">
+
+<img src="images/photo2.jpg">
+
+<img src="images/photo3.jpg">
+
+</div>
 
 </section>
-
 
 <!-- ================= CONTACT ================= -->
 
 <section id="contact">
 
-    <h2>Contact</h2>
+<h2>Contact</h2>
 
-    <p>Email : your@email.com</p>
+<p>
 
-    <p>LinkedIn</p>
+<i class="fas fa-envelope"></i>
 
-    <p>GitHub</p>
+your@email.com
 
-    <p>Google Scholar</p>
+</p>
+
+<p>
+
+<i class="fab fa-github"></i>
+
+GitHub
+
+</p>
+
+<p>
+
+<i class="fab fa-linkedin"></i>
+
+LinkedIn
+
+</p>
+
+<p>
+
+<i class="fas fa-graduation-cap"></i>
+
+Google Scholar
+
+</p>
 
 </section>
-
 
 <!-- ================= FOOTER ================= -->
 
 <footer>
 
-    <p>
+<p>
 
-        © 2026 Your Name
+© 2026 Your Name
 
-    </p>
+</p>
 
 </footer>
-
 
 <script src="js/script.js"></script>
 
