@@ -1,0 +1,7 @@
+body{margin:0;font-family:Arial;background:#07111d;color:#fff}
+header{padding:20px;background:#0d1b2a;text-align:center}
+.hero{display:flex;gap:40px;align-items:center;justify-content:center;height:90vh;
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.8)),url('assets/background.jpg');
+background-size:cover}
+.profile img{width:260px;height:260px;border-radius:50%;border:6px solid #2ea8ff}
+.btn{display:inline-block;padding:12px 24px;background:#2ea8ff;color:#fff;text-decoration:none;border-radius:30px}
