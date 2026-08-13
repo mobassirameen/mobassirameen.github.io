@@ -473,17 +473,3 @@ nav a.active::after{
     margin-top:6px;
     flex-shrink:0;
 }
-
-.email-copy{
-    cursor:pointer;
-}
-
-.copy-icon{
-    margin-left:10px;
-    font-size:14px;
-    opacity:0.7;
-}
-
-.email-copy:hover{
-    color:#2ea8ff;
-}
