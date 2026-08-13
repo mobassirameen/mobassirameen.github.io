@@ -462,3 +462,14 @@ nav a.active::after{
     margin-top:5px;
     background:#2ea8ff;
 }
+.address{
+    display:flex;
+    align-items:flex-start;
+    gap:15px;
+    line-height:1.8;
+}
+
+.address i{
+    margin-top:6px;
+    flex-shrink:0;
+}
