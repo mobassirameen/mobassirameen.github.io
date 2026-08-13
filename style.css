@@ -482,6 +482,12 @@ nav a.active::after{
     flex-shrink:0;
 }
 
+.about-card p{
+    text-align: justify;
+    line-height: 1.9;
+    color: var(--gray);
+}
+
 /* ==============================================
    CONTACT SECTION
 ============================================== */
