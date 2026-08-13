@@ -232,6 +232,7 @@ if (footer) {
 
 }
 
+
 // ==========================================
 // Gallery Lightbox
 // ==========================================
@@ -260,7 +261,7 @@ galleryImages.forEach(img => {
 });
 
 
-function closeLightbox() {
+function closeLightbox(){
 
     lightbox.style.display = "none";
 
@@ -276,7 +277,7 @@ lightboxClose.addEventListener("click", closeLightbox);
 
 lightbox.addEventListener("click", (e) => {
 
-    if (e.target === lightbox) {
+    if(e.target === lightbox){
 
         closeLightbox();
 
@@ -285,11 +286,9 @@ lightbox.addEventListener("click", (e) => {
 });
 
 
-/* ESC key se close */
-
 document.addEventListener("keydown", (e) => {
 
-    if (e.key === "Escape") {
+    if(e.key === "Escape"){
 
         closeLightbox();
 
