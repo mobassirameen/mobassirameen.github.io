@@ -707,45 +707,67 @@ nav a.active::after{
 
     inset:0;
 
-    background:rgba(0,0,0,.9);
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,.92);
 
     justify-content:center;
 
     align-items:center;
 
-    padding:40px;
+    padding:30px;
 
 }
 
 .lightbox img{
 
-    max-width:90%;
+    max-width:95%;
 
     max-height:90vh;
 
+    width:auto;
+    height:auto;
+
     object-fit:contain;
 
-    border-radius:10px;
+    border-radius:8px;
 
-    box-shadow:0 0 40px rgba(0,0,0,.6);
+    box-shadow:0 0 50px rgba(0,0,0,.8);
+
+    cursor:default;
 
 }
 
 .lightbox-close{
 
-    position:absolute;
+    position:fixed;
 
-    top:25px;
+    top:20px;
 
-    right:40px;
+    right:30px;
 
-    font-size:45px;
+    width:50px;
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:38px;
 
     color:white;
 
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.3);
+
+    border-radius:50%;
+
     cursor:pointer;
 
-    font-weight:300;
+    z-index:2001;
 
     transition:.3s;
 
@@ -753,13 +775,17 @@ nav a.active::after{
 
 .lightbox-close:hover{
 
-    color:#2ea8ff;
+    background:#2ea8ff;
+
+    transform:scale(1.1);
 
 }
+
+
+/* Gallery image cursor */
 
 .gallery-item img{
 
     cursor:pointer;
 
-}
 }
