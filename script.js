@@ -218,6 +218,49 @@ window.addEventListener("mousemove", (e) => {
 
 });
 
+// ==========================================
+// Gallery Lightbox
+// ==========================================
+
+const galleryImages = document.querySelectorAll(".gallery-item img");
+
+const lightbox = document.getElementById("lightbox");
+
+const lightboxImg = document.getElementById("lightbox-img");
+
+const lightboxClose = document.querySelector(".lightbox-close");
+
+
+galleryImages.forEach(img => {
+
+    img.addEventListener("click", () => {
+
+        lightbox.style.display = "flex";
+
+        lightboxImg.src = img.src;
+
+    });
+
+});
+
+
+lightboxClose.addEventListener("click", () => {
+
+    lightbox.style.display = "none";
+
+});
+
+
+lightbox.addEventListener("click", (e) => {
+
+    if (e.target === lightbox) {
+
+        lightbox.style.display = "none";
+
+    }
+
+});
+
 
 // ==========================================
 // Footer Year
