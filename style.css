@@ -699,14 +699,14 @@ nav a.active::after{
 
     position:fixed;
 
-    z-index:2000;
-
     inset:0;
 
     width:100%;
     height:100%;
 
     background:rgba(0,0,0,.92);
+
+    z-index:2000;
 
     justify-content:center;
 
@@ -716,13 +716,34 @@ nav a.active::after{
 
 }
 
-.lightbox img{
 
-    max-width:95%;
+/* Image container */
+
+.lightbox-content{
+
+    position:relative;
+
+    display:inline-block;
+
+    max-width:95vw;
+
+    max-height:90vh;
+
+}
+
+
+/* Large image */
+
+.lightbox-content img{
+
+    display:block;
+
+    max-width:95vw;
 
     max-height:90vh;
 
     width:auto;
+
     height:auto;
 
     object-fit:contain;
@@ -731,35 +752,42 @@ nav a.active::after{
 
     box-shadow:0 0 50px rgba(0,0,0,.8);
 
-    cursor:default;
-
 }
+
+
+/* ==============================================
+   CLOSE BUTTON
+============================================== */
 
 .lightbox-close{
 
-    position:fixed;
+    position:absolute;
 
-    top:20px;
+    top:-20px;
 
-    right:30px;
+    right:-20px;
 
-    width:50px;
-    height:50px;
+    width:45px;
+
+    height:45px;
 
     display:flex;
 
     align-items:center;
+
     justify-content:center;
 
-    font-size:38px;
+    background:#07111d;
 
     color:white;
 
-    background:rgba(255,255,255,.12);
-
-    border:1px solid rgba(255,255,255,.3);
+    border:2px solid white;
 
     border-radius:50%;
+
+    font-size:32px;
+
+    line-height:1;
 
     cursor:pointer;
 
@@ -774,14 +802,5 @@ nav a.active::after{
     background:#2ea8ff;
 
     transform:scale(1.1);
-
-}
-
-
-/* Gallery image cursor */
-
-.gallery-item img{
-
-    cursor:pointer;
 
 }
