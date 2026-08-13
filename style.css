@@ -486,125 +486,111 @@ nav a.active::after{
    CONTACT SECTION
 ============================================== */
 
-.contact-container{
+.contact-container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
 
-    display:grid;
+    display: flex;
+    gap: 50px;
 
-    grid-template-columns:1fr 1fr;
-
-    gap:50px;
-
-    max-width:1100px;
-
-    margin:0 auto;
-
-    align-items:stretch;
-
+    align-items: stretch;
 }
 
 .contact-box,
-.postdoc-box{
+.postdoc-box {
+    flex: 1;
 
-    background:var(--card);
+    background: var(--card);
 
-    padding:40px;
+    padding: 40px;
 
-    border-radius:20px;
+    border-radius: 20px;
 
-    backdrop-filter:blur(15px);
+    backdrop-filter: blur(15px);
 
-    border:1px solid rgba(255,255,255,.08);
-
+    border: 1px solid rgba(255,255,255,.08);
 }
 
-.contact-box{
 
-    display:flex;
+/* LEFT CONTACT BOX */
 
-    flex-direction:column;
-
-    justify-content:center;
-
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.address{
+.address {
+    display: flex;
+    align-items: flex-start;
 
-    display:flex;
+    gap: 15px;
 
-    align-items:flex-start;
+    color: var(--gray);
 
-    gap:15px;
+    line-height: 1.8;
 
-    color:var(--gray);
-
-    line-height:1.8;
-
-    margin-bottom:25px;
-
+    margin-bottom: 25px;
 }
 
-.address i{
+.address i {
+    color: #2ea8ff;
 
-    color:#2ea8ff;
+    margin-top: 5px;
 
-    margin-top:5px;
-
-    flex-shrink:0;
-
+    flex-shrink: 0;
 }
 
-.contact-box p{
+.contact-box p {
+    color: var(--gray);
 
-    color:var(--gray);
+    line-height: 1.8;
 
-    line-height:1.8;
-
-    margin-bottom:10px;
-
+    margin-bottom: 10px;
 }
 
-.contact-box p i{
+.contact-box p i {
+    color: #2ea8ff;
 
-    color:#2ea8ff;
-
-    margin-right:12px;
-
+    margin-right: 12px;
 }
 
-.email-click{
+.email-click {
+    cursor: pointer;
 
-    cursor:pointer;
-
-    transition:.3s;
-
+    transition: .3s;
 }
 
-.email-click:hover{
-
-    color:#2ea8ff;
-
+.email-click:hover {
+    color: #2ea8ff;
 }
 
-.postdoc-box h3{
 
-    color:#93d8ff;
+/* RIGHT POSTDOC BOX */
 
-    font-size:24px;
-
-    margin-bottom:20px;
-
+.postdoc-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.postdoc-box p{
+.postdoc-box h3 {
+    color: #93d8ff;
 
-    color:var(--gray);
+    font-size: 24px;
 
-    line-height:1.9;
+    margin-bottom: 20px;
+}
 
-    font-size:16px;
+.postdoc-box p {
+    color: var(--gray);
 
-    margin-bottom:18px;
+    line-height: 1.9;
 
+    font-size: 16px;
+
+    margin-bottom: 18px;
 }
 
 
@@ -612,11 +598,15 @@ nav a.active::after{
    MOBILE
 ============================================== */
 
-@media (max-width:768px){
+@media (max-width: 768px) {
 
-    .contact-container{
+    .contact-container {
+        flex-direction: column;
 
-        grid-template-columns:1fr;
+        gap: 30px;
+    }
+
+}
 
         gap:30px;
 
