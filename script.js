@@ -253,23 +253,45 @@ galleryImages.forEach(img => {
 
         lightboxImg.src = img.src;
 
+        document.body.style.overflow = "hidden";
+
     });
 
 });
 
 
-lightboxClose.addEventListener("click", () => {
+function closeLightbox() {
 
     lightbox.style.display = "none";
 
-});
+    lightboxImg.src = "";
+
+    document.body.style.overflow = "";
+
+}
+
+
+lightboxClose.addEventListener("click", closeLightbox);
 
 
 lightbox.addEventListener("click", (e) => {
 
     if (e.target === lightbox) {
 
-        lightbox.style.display = "none";
+        closeLightbox();
+
+    }
+
+});
+
+
+/* ESC key se close */
+
+document.addEventListener("keydown", (e) => {
+
+    if (e.key === "Escape") {
+
+        closeLightbox();
 
     }
 
