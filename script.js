@@ -245,6 +245,8 @@ const lightboxImg = document.getElementById("lightbox-img");
 
 const lightboxClose = document.querySelector(".lightbox-close");
 
+const lightboxCaption = document.getElementById("lightbox-caption");
+
 
 galleryImages.forEach(img => {
 
@@ -253,6 +255,8 @@ galleryImages.forEach(img => {
         lightbox.style.display = "flex";
 
         lightboxImg.src = img.src;
+
+        lightboxCaption.textContent = img.alt;
 
         document.body.style.overflow = "hidden";
 
@@ -266,6 +270,8 @@ function closeLightbox(){
     lightbox.style.display = "none";
 
     lightboxImg.src = "";
+    
+    lightboxCaption.textContent = "";
 
     document.body.style.overflow = "";
 
