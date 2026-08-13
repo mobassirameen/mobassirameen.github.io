@@ -231,3 +231,14 @@ if (footer) {
         `© ${new Date().getFullYear()} Mohammad Mobassir Ameen`;
 
 }
+
+
+// ==========================================
+// Email clickable
+// ==========================================
+
+<p class="email-copy" onclick="copyEmail()">
+    <i class="fas fa-envelope"></i>
+    <span id="email">mobassir.ameen7866@email.com</span>
+    <i class="fas fa-copy copy-icon"></i>
+</p>
