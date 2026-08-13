@@ -469,6 +469,14 @@ nav a.active::after{
     line-height:1.8;
 }
 
+.email-click{
+    cursor:pointer;
+}
+
+.email-click:hover{
+    color:#2ea8ff;
+}
+
 .address i{
     margin-top:6px;
     flex-shrink:0;
