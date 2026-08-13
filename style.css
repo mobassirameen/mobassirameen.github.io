@@ -185,7 +185,7 @@ nav a:hover{
 
 .hero-text{
 
-    max-width:700px;
+    max-width:900px;
 
 }
 
@@ -204,6 +204,8 @@ nav a:hover{
     margin:10px 0;
 
     line-height:1.1;
+
+    white-space:nowrap;
 
 }
 
