@@ -218,6 +218,20 @@ window.addEventListener("mousemove", (e) => {
 
 });
 
+
+// ==========================================
+// Footer Year
+// ==========================================
+
+const footer = document.querySelector("footer p");
+
+if (footer) {
+
+    footer.innerHTML =
+        `© ${new Date().getFullYear()} Dr. Mohammad Mobassir Ameen | Indian Institute of Technology Madras`;
+
+}
+
 // ==========================================
 // Gallery Lightbox
 // ==========================================
@@ -260,17 +274,3 @@ lightbox.addEventListener("click", (e) => {
     }
 
 });
-
-
-// ==========================================
-// Footer Year
-// ==========================================
-
-const footer = document.querySelector("footer p");
-
-if (footer) {
-
-    footer.innerHTML =
-        `© ${new Date().getFullYear()} Dr. Mohammad Mobassir Ameen | Indian Institute of Technology Madras`;
-
-}
