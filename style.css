@@ -451,7 +451,28 @@ section h2::after{
 
     line-height:1.8;
 
+    text-align:justify;
+
 }
+
+.card ul{
+
+    color:var(--gray);
+
+    line-height:1.8;
+
+    text-align:justify;
+
+    padding-left:20px;
+
+}
+
+.card li{
+
+    margin-bottom:12px;
+
+}
+
 nav a.active{
     color:#2ea8ff;
 }
