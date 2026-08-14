@@ -822,3 +822,128 @@ nav a.active::after{
     padding:0 10px;
 
 }
+
+/* ==============================================
+   PUBLICATIONS
+============================================== */
+
+.publication-list{
+
+    max-width:1100px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+.publication-box{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:30px;
+
+    padding:30px 35px;
+
+    background:var(--card);
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+    transition:.35s;
+
+}
+
+
+.publication-box:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 40px rgba(0,170,255,.20);
+
+    border-color:rgba(46,168,255,.4);
+
+}
+
+
+/* YEAR */
+
+.publication-year{
+
+    min-width:90px;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#2ea8ff;
+
+    text-align:center;
+
+}
+
+
+/* CONTENT */
+
+.publication-content{
+
+    flex:1;
+
+}
+
+
+.publication-content h3{
+
+    font-size:20px;
+
+    line-height:1.5;
+
+    margin-bottom:8px;
+
+}
+
+
+.publication-content p{
+
+    color:var(--gray);
+
+    font-size:15px;
+
+}
+
+
+/* ==============================================
+   PUBLICATIONS MOBILE
+============================================== */
+
+@media (max-width:768px){
+
+    .publication-box{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+        padding:25px;
+
+    }
+
+    .publication-year{
+
+        text-align:left;
+
+    }
+
+}
