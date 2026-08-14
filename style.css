@@ -1061,3 +1061,185 @@ nav a.active::after{
     margin-bottom:0;
 
 }
+
+/* ==============================================
+   WORK EXPERIENCE
+============================================== */
+
+.experience-cards{
+
+    max-width:1300px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+.experience-card{
+
+    width:100%;
+
+    background:var(--card);
+
+    padding:30px 35px;
+
+    border-radius:18px;
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+.experience-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 40px rgba(0,170,255,.20);
+
+}
+
+
+/* Header */
+
+.experience-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    gap:30px;
+
+    margin-bottom:18px;
+
+}
+
+
+.experience-card h3{
+
+    color:#f5f7fa;
+
+    font-size:22px;
+
+    margin-bottom:6px;
+
+}
+
+
+.experience-card h4{
+
+    color:#58c4ff;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    font-style:italic;
+
+}
+
+
+/* Date */
+
+.experience-date{
+
+    color:#b9c3cf;
+
+    font-size:14px;
+
+    font-weight:500;
+
+    white-space:nowrap;
+
+    padding-top:4px;
+
+}
+
+
+/* Description */
+
+.experience-card ul{
+
+    margin:0;
+
+    padding-left:22px;
+
+}
+
+
+.experience-card li{
+
+    color:var(--gray);
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    margin-bottom:7px;
+
+}
+
+
+.experience-card li::marker{
+
+    color:#2ea8ff;
+
+}
+
+
+/* ==============================================
+   WORK EXPERIENCE MOBILE
+============================================== */
+
+@media (max-width:768px){
+
+    .experience-card{
+
+        padding:25px 22px;
+
+    }
+
+    .experience-header{
+
+        flex-direction:column;
+
+        gap:8px;
+
+    }
+
+    .experience-date{
+
+        order:-1;
+
+    }
+
+    .experience-card h3{
+
+        font-size:19px;
+
+    }
+
+    .experience-card h4{
+
+        font-size:14px;
+
+    }
+
+    .experience-card li{
+
+        font-size:14px;
+
+    }
+
+}
