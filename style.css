@@ -844,7 +844,11 @@ nav a.active::after{
 
 .publication-box{
 
-    display:flex;
+   width:100%;
+
+   height:180px;
+    
+   display:flex;
 
     align-items:center;
 
