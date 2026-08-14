@@ -972,3 +972,92 @@ nav a.active::after{
     }
 
 }
+
+/* ==============================================
+   TEACHING & MENTORSHIP
+============================================== */
+
+#teaching .card p{
+
+    margin-bottom:20px;
+
+    line-height:1.8;
+
+}
+
+#teaching .card strong{
+
+    color:#93d8ff;
+
+}
+
+.report-link{
+
+    display:inline-block;
+
+    margin-bottom:20px;
+
+    color:#58c4ff;
+
+    text-decoration:none;
+
+    font-size:13px;
+
+    transition:.3s;
+
+}
+
+.report-link:hover{
+
+    color:#2ea8ff;
+
+    text-decoration:underline;
+
+}
+
+.report-link i{
+
+    font-size:13px;
+
+    margin-right:5px;
+
+}
+
+
+/* ==============================================
+   STUDENT ENTRIES
+============================================== */
+
+.student-entry{
+
+    margin-top:20px;
+
+    padding-top:18px;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+}
+
+.student-entry h4{
+
+    color:#93d8ff;
+
+    font-size:17px;
+
+    margin-bottom:6px;
+
+}
+
+.student-entry p{
+
+    margin-bottom:8px !important;
+
+    line-height:1.6 !important;
+
+}
+
+.student-entry .report-link{
+
+    margin-bottom:0;
+
+}
