@@ -1247,3 +1247,130 @@ nav a.active::after{
     }
 
 }
+
+/* ==============================================
+   HONOURS & AWARDS
+============================================== */
+
+.awards-container{
+
+    width:100%;
+
+    max-width:1450px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+
+.award-item{
+
+    width:100%;
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:35px;
+
+    padding:25px 35px;
+
+    background:var(--card);
+
+    border-radius:18px;
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+
+.award-item:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 35px rgba(0,170,255,.20);
+
+}
+
+
+/* Year */
+
+.award-year{
+
+    min-width:100px;
+
+    color:#58c4ff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    padding-top:3px;
+
+}
+
+
+/* Content */
+
+.award-content{
+
+    flex:1;
+
+}
+
+
+.award-content h3{
+
+    color:var(--text);
+
+    font-size:19px;
+
+    margin-bottom:7px;
+
+}
+
+
+.award-content p{
+
+    color:var(--gray);
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+
+/* ==============================================
+   MOBILE
+============================================== */
+
+@media (max-width:768px){
+
+    .award-item{
+
+        flex-direction:column;
+
+        gap:8px;
+
+        padding:22px;
+
+    }
+
+    .award-year{
+
+        min-width:auto;
+
+    }
+
+}
