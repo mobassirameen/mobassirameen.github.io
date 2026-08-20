@@ -228,7 +228,8 @@ const footer = document.querySelector("footer p");
 if (footer) {
 
     footer.innerHTML =
-        `© ${new Date().getFullYear()} Dr. Mohammad Mobassir Ameen | Indian Institute of Technology Madras`;
+        /*`© ${new Date().getFullYear()} Dr. Mohammad Mobassir Ameen | Indian Institute of Technology Madras`;*/
+        `© ${new Date().getFullYear()} Mohammad Mobassir Ameen | Indian Institute of Technology Madras`;
 
 }
 
